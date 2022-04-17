@@ -25,7 +25,7 @@ download.file(url = "https://raw.githubusercontent.com/fivethirtyeight/data/mast
 airline_safety<- read.csv("airline_safety.csv")
 
 #TASK: take a look at the airline safety data. 
-
+glimpse(airline_safety)
 
 #TASK: Install and call the dplyr package. 
 install.packages("dplyr")
